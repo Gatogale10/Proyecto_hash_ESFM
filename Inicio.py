@@ -10,7 +10,6 @@ try:
     st.image(logo, width=120)
 except FileNotFoundError:
     #st.error("No se encontró el archivo logo_ipn.png")
-
     st.markdown("""<div style="width:80px; height:80px; background-color:#900C3F;"></div>""",
                 unsafe_allow_html=True)
 
