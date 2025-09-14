@@ -148,7 +148,7 @@ def main():
     # Cargar imagen
 
     try:
-        logo = Image.open('logo_ipn.png')
+        logo = Image.open('Imagenes/logo_ipn.png')
         st.image(logo, width=120)
     except FileNotFoundError:
         # st.error("No se encontró el archivo logo_ipn.png")

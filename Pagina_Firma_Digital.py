@@ -65,9 +65,11 @@ st.markdown("---")
 st.subheader("¿Cómo funciona?")
 st.write(
     """
-    1. **Carga tu documento:** Selecciona el archivo que deseas firmar digitalmente.
-    2. **Genera tu firma:** El sistema procesará el documento y generará una firma digital única.
-    3. **Descarga el documento firmado:** Obtén el documento con la firma digital integrada.
+    1. **Crea tu usuario y contraseña.**
+    2. **Incia sesion:** Entra a la pagina principal.
+    3. **Carga tu documento:** Selecciona el archivo que deseas firmar digitalmente.
+    4. **Genera tu firma:** El sistema procesará el documento y generará una firma digital única.
+    5. **Descarga el documento firmado:** Obtén el documento con la firma digital integrada.
     """
 )
 
