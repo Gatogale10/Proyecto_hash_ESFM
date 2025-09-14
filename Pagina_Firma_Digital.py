@@ -6,11 +6,11 @@ from PIL import Image
 # Cargar imagen
 
 try:
-    logo = Image.open('no.png')
+    logo = Image.open('Imagenes/logo_ipn_sf.png')
     st.image(logo, width=120)
 except FileNotFoundError:
     #st.error("No se encontró el archivo logo_ipn.png")
-    st.markdown("""<div style="width:80px; height:80px; background-color:#900C3F;"></div>""",
+    st.markdown("""<div style="width:80px; height:810px; background-color:#900C3F;"></div>""",
                 unsafe_allow_html=True)
 
 # Color guinda del IPN (aproximado)
